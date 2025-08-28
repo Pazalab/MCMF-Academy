@@ -7,7 +7,7 @@ const HeroSection = () => {
               <div className="hero-section-wrap">
                          <div className="hero-video">
                                <video autoPlay loop muted>
-                                    <source src={"https://res.cloudinary.com/dq6subhaj/video/upload/v1752063709/8940728-uhd_2560_1440_25fps_vjichw.mp4"} type="video/mp4" />
+                                    <source src={"https://files.pazalab.com/mcmf/video/hero-video.mp4"} type="video/mp4" />
                                  </video>
                          </div>
                          <div className="hero-texts">
