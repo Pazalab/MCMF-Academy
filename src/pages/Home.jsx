@@ -5,6 +5,9 @@ import "../css/home.css"
 import ProgramsSection from "../components/home/ProgramsSection"
 import BenefitsSection from "../components/home/BenefitsSection"
 import CampsSection from "../components/home/CampsSection"
+import BlogSection from "../components/home/BlogSection"
+import CallToAction from "../components/common/CallToAction"
+import Footer from "../components/common/Footer"
 
 const Home = () => {
   return (
@@ -15,6 +18,9 @@ const Home = () => {
           <ProgramsSection />
           <BenefitsSection />
           <CampsSection />
+          <BlogSection />
+          <CallToAction />
+          <Footer />
     </>
   )
 }

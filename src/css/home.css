@@ -444,6 +444,7 @@
     display: flex;
     align-items: center;
     gap: 40px;
+    flex-wrap: wrap;
     margin-top: 20px;
 }
 .camp-links a:nth-child(1){
@@ -492,9 +493,251 @@
       height: 350px;
 }
 
+.camp-section-extra{
+    margin-top: 80px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.camp-section-donation{
+    background: #142d2d;
+    border-radius: 20px;
+    padding: 40px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    height: 650px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.camp-section-donation h3{
+    font-size: 18px;
+    color: gainsboro;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.camp-section-donation h2{
+    font-size: 36px;
+    color: whitesmoke;
+    line-height: 1.35;
+    font-weight: 500;
+}
+
+.camp-section-donation a{
+     width: 200px;
+     display: flex;
+     background: var(--secondary-color);
+     height: 50px;
+     align-items: center;
+     justify-content: center;
+     border-radius: 50px;
+     -webkit-border-radius: 50px;
+     -moz-border-radius: 50px;
+     -ms-border-radius: 50px;
+     -o-border-radius: 50px;
+     color: #222;
+}
+.camp-column{
+     display: grid;
+     grid-template-columns: 1fr;
+     gap: 30px;
+}
+.call-to-action-camp{
+    background: rgb(237, 242, 230);
+    padding: 40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.call-to-action-camp h3{
+     line-height: 1.5;
+     font-size: 25px;
+     font-weight: 500;
+}
+.call-to-action-camp a{
+     height: 50px;
+     width: 180px;
+     align-items: center;
+     justify-content: center;
+     color: white;
+     border-radius: 50px;
+     background: var(--main-color);
+     display: inline-flex;
+     -webkit-border-radius: 50px;
+     -moz-border-radius: 50px;
+     -ms-border-radius: 50px;
+     -o-border-radius: 50px;
+}
+.camp-image img{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.blog-section{
+     padding: 100px 0;
+     background: rgb(246, 249, 240);
+}
+
+.blog-section-intro{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.blog-section-intro h2{
+    font-size: 50px;
+    width: 500px;;
+}
+
+.blog-section-intro a{
+     width: 200px;
+     height: 50px;
+     display:flex;
+     align-items: center;
+     justify-content: center;
+     background: var(--main-color);
+     gap: 5px;
+     color: white;
+     border-radius: 50px;
+     -webkit-border-radius: 50px;
+     -moz-border-radius: 50px;
+     -ms-border-radius: 50px;
+     -o-border-radius: 50px;
+}
+
+.blog-section-intro a span{
+    display: flex;
+    margin-top: 2px;
+}
+
+.blog-section-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.blog-moja{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: white;
+    overflow: hidden;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.blog-moja-texts{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     padding: 30px;
+     gap: 70px;
+}
+.blog-moja-texts h4{
+     font-size: 16px;
+     font-weight: 400;
+     letter-spacing: -0.5px;
+     color: #555;
+}
+
+.blog-moja-texts h3{
+    font-size: 25px;
+    margin-bottom: 5px;
+    line-height: 1.3;
+}
+.blog-moja-texts a{
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-weight: 600;
+      color: var(--main-color);
+      position: relative;
+      padding-bottom: 4px;
+}
+.blog-moja-texts a span{
+    display: flex;
+    margin-top: 3px;
+}
+
+.blog-moja-texts a::after{
+     position: absolute;
+     content: "";
+     width: 0%;
+     height: 2px;
+     left: 0;
+     border-radius: 10px;
+     bottom: 0;
+     background: var(--main-color);
+     -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+     -ms-border-radius: 10px;
+     -o-border-radius: 10px;
+     transition: all 0.75s ease;
+     -webkit-transition: all 0.75s ease;
+     -moz-transition: all 0.75s ease;
+     -ms-transition: all 0.75s ease;
+     -o-transition: all 0.75s ease;
+}
+.blog-moja-texts:hover a::after{
+      width: 100%;
+}
+.call-to-action{
+     background: #142d2d;
+}
+.call-to-action-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
 
+.call-to-action-texts{
+    padding: 100px;
+    display: flex;
+    align-items: center;
+}
+.call-to-action-texts h3{
+      font-size: 20px;
+      color: whitesmoke;
+      font-weight: 400;
+      color: var(--secondary-color);
+}
+.call-to-action-texts h2{
+    font-size: 60px;
+    line-height: 1.3;
+    margin: 30px 0 !important;
+    color: whitesmoke;
+}
 
+
+.call-to-action-texts a{
+     width: 200px;
+     height: 50px;
+     border-radius: 50px;
+     -webkit-border-radius: 50px;
+     -moz-border-radius: 50px;
+     -ms-border-radius: 50px;
+     -o-border-radius: 50px;
+     align-items: center;
+     justify-content: center;
+     color: #222;
+     background-color: var(--secondary-color);
+}
 
 
 
@@ -518,6 +761,14 @@
               width: 100%;
               gap: 0;
        }
+       .camp-section-intro{
+            grid-template-columns: 1fr;
+            gap: 10px;
+       }
+       .camp-section-extra,
+       .blog-section-row{
+            grid-template-columns: 1fr;
+       }
 }
 
 @media(max-width: 768px){
@@ -528,7 +779,8 @@
     .hero-texts h1{
            font-size: 36px;
     }
-    .about-section-intro h2{
+    .about-section-intro h2,
+    .call-to-action-texts h2{
          font-size: 50px;
          margin: 10px 0;
     }
@@ -558,23 +810,64 @@
    .benefit-moja-row-two{
          margin: 30px 0
    }
+   .camp-section-images{
+        grid-template-columns: 1fr;
+   }
+   .camp-section-donation{
+        height: auto;
+        gap: 40px;
+   }
+   .camp-section-donation h2{
+        font-size: 28px;
+   }
+   .call-to-action-camp h3{
+        font-size: 22px;
+   }
+   .call-to-action-content{
+      grid-template-columns: 1fr;
+   }
+   .blog-section-intro{
+         flex-direction: column;
+         gap: 20px;
+         align-items: flex-start;
+   }
+   .blog-section-intro h2{
+         width: 100%;
+         font-size: 40px;
+   }
 }
 @media(max-width: 550px){
      .hero-texts{
            margin-top: -2px;
      }
-     .about-section-intro h2{
+     .about-section-intro h2,
+     .call-to-action-texts h2{
            font-size: 45px;
      }
      .hero-texts h1,
      .programs-section-intro h2,
-     .benefit-texts h2{
+     .benefit-texts h2,
+     .camp-section-intro h2,
+     .blog-section-intro h2{
            font-size: 32px;
      }
      .about-section-col p,
      .age-texts h3,
      .activity-moja-header h3,
-     .benefit-texts p{
+     .benefit-texts p,
+     .camp-section-intro p{
            font-size: 20px;
+     }
+     .camp-links{
+          gap: 20px
+     }
+     .blog-moja{
+           grid-template-columns: 1fr;
+     }
+     .blog-moja-texts{
+          gap:10px
+     }
+     .call-to-action-texts{
+          padding: 80px 50px
      }
 }
