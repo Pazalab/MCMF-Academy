@@ -1,0 +1,173 @@
+.contact-hero{
+     padding: 80px 0;
+}
+
+.contact-hero-intro{
+     width: 900px;
+     margin: auto;
+     text-align: center;
+}
+.contact-hero-intro h3{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: var(--main-color);
+    font-weight: 500;
+}
+.contact-hero-intro h2{
+    font-size: 60px;
+}
+.contact-hero-intro p{
+    font-size: 20px;
+    width: 90%;
+    margin: 5px auto;
+    line-height: 1.5;
+    color: rgb(50, 50, 50);
+}
+
+.contact-hero-details{
+    margin-top: 30px;
+    width: 900px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+
+.contact-hero-box h3{
+    font-size: 25px;
+    font-weight: 400;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(231, 237, 234, 0.603);
+    margin-bottom: 10px;
+}
+
+.contact-hero-box p{
+    font-size: 22px;
+    font-weight: 350;
+    margin-bottom: 10px;
+    color: rgb(50, 50, 50);
+}
+
+.contact-form-content{
+       border-bottom: 1px solid rgb(236, 242, 240);
+       padding-bottom: 80px;
+}
+.contact-form-box{
+    background: var(--dark-bg);
+    width: 900px;
+    margin: auto;
+    padding: 60px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.contact-form-box h3{
+     font-size: 35px;
+     text-align: center;
+     margin-bottom: 35px;
+     font-weight: 400;
+     color: gainsboro;
+}
+
+.form-row{
+     margin-bottom: 20px;
+}
+.form-row.split{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+}
+.form-row label{
+     font-size: 18px;
+     display: flex;
+     color: gainsboro;
+     font-weight: 380;
+     margin-bottom: 5px;
+}
+
+.form-control{
+     width: 100%;
+     height: 55px;
+     border: none;
+     outline: none;
+     font-size: 18px;
+     border-bottom: 1px solid rgba(220, 220, 220, 0.4);
+     color: whitesmoke;
+}
+.form-control::placeholder{
+     font-size: 16px;
+}
+
+.form-row textarea{
+     width: 100%;
+     height: 155px;
+     border: none;
+     outline: none;
+     font-size: 18px;
+     border-bottom: 1px solid rgba(220, 220, 220, 0.4);
+     color: whitesmoke;
+}
+
+.form-btn{
+     display: flex;
+     justify-content: center;
+}
+
+.form-btn button{
+     width: 230px;
+     height: 55px;
+     background: white;
+     border-radius: 55px;
+     -webkit-border-radius: 55px;
+     -moz-border-radius: 55px;
+     -ms-border-radius: 55px;
+     -o-border-radius: 55px;
+     font-size: 18px;
+     cursor: pointer;
+     border: none;
+}
+
+
+@media(max-width: 1090px){
+       .contact-hero-intro,
+       .contact-hero-details,
+       .contact-form-box{
+             width: 100%;
+       }
+}
+
+@media(max-width: 768px){
+      .contact-hero-details{
+            grid-template-columns: 1fr;
+            gap: 20px
+      }
+    .form-row.split{
+          grid-template-columns: 1fr;
+          gap: 0;
+    }
+}
+
+@media(max-width: 550px){
+      .contact-hero-intro h2{
+            font-size: 40px;
+      }
+      .contact-hero-intro p{
+           width: 100%;
+      }
+      .contact-hero-box h3{
+           font-size: 22px;
+      }
+      .contact-hero-box p{
+            font-size: 20px;
+      }
+      .contact-form-box{
+           padding: 50px 30px;
+      }
+      .contact-form-box h3{
+           font-size: 30px;
+      }
+}

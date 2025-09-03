@@ -17,7 +17,7 @@ const AboutSection = () => {
                                                 <p>At the heart of MCMF football academy is a mission far greater than the game. We are committed to empowering children to grow into disciplined, goal-oriented, and responsible individuals, on and off the pitch. We equip every child with the mindset and tools they need to confidently navigate life into adulthood.</p>
                                                 <p>We do this through expert coaching and values-driven mentorship, instilling life skills that go far beyond the pitch — building character, leadership, and resilience for every stage of life.</p>
 
-                                                <Link to="/about-us">Learn more <span><RxArrowTopRight /></span></Link>
+                                                <Link to="/academy">Learn more <span><RxArrowTopRight /></span></Link>
                                          </div>
                                </div>
                       </div>

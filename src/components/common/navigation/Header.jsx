@@ -19,9 +19,9 @@ const Header = () => {
                                                     <ul>
                                                              <li><NavLink to={"/"}>Home</NavLink></li>
                                                              <li><NavLink to={"/academy"}>Academy</NavLink></li>
-                                                             <li><NavLink to={"/programs"}>Programs</NavLink></li>
-                                                             <li><NavLink to={"/gallery"}>Experience</NavLink></li>
-                                                             <li><NavLink to={"/camps"}>Camps</NavLink></li>
+                                                             <li><NavLink to={"/mcmf-programs-and-activities"}>Programs</NavLink></li>
+                                                             <li><Link to={"#"}>Experience</Link></li>
+                                                             <li><Link to={"#"}>Camps</Link></li>
                                                     </ul>
                                          </nav>
                                 </div>
